@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <!-- fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Red+Hat+Display&display=swap" rel="stylesheet">
+    <!--styling sheet import-->
+    <link rel="stylesheet" href="styling.css" />
+    <title>Welcome to Our Page</title>
+</head>
+
+<body class="body-1">
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">    
+            <!-- <a class="navbar-brand" href="#"><img src="img/logo.png"
+                height="30" width="30" /></a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cafeNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="cafeNavBar">
+                <ul class="navbar-nav">
+                    <li class="nav-item-active list"><a class="nav-link" href="#"><i class="fa fa-lg"></i> Home </a></li>
+                    <li class="nav-item list"><a class="nav-link" href="#"> About </a></li>
+                    <li class="nav-item list"><a class="nav-link" href="#subscriptions"> Subscriptions </a></li>
+                    <li class="nav-item list"><a class="nav-link" href="#"> Services </a></li>
+                    <li class="nav-item list"><a class="nav-link" href="contactus.html"> Contact </a></li>
+                </ul>
+                <!--<span class="navbar-text ml-auto">
+                    <a role="button" id="loginButton">
+                        <i class="fa fa-sign-in"></i> Login
+                    </a> 
+                </span>-->
+            </div>
+        </div>   
+    </nav>
+
+<!-- <div class="slides slider__container" style="transform:translate3d(0px, -400%, 0px)"> == $0 -->
+    <header class="jumbotron jumbotron-fluid"><!--add css for padding-->
+        <div class="container">
+            <div class="row">
+                
+                <!--image navbar icon
+                <div class="col align-self-center">
+                    <a href="index.html"><img src="img/logo.png" class="img-fluid" /></a>
+                </div> -->
+                <div class="col">
+                    <h1>Anti Cafe</h1>
+                    <h2>Comfort While You Work</h2>
+                </div>
+                <!-- this is a reserve button  in the navbar
+                <div class="col-md-4 col-xl-2 mt-4 btn-lg">
+                    <a role="button"><button type="button" class= "btn btn-info text-white"
+                    id="reserveButton">Reserve Campsite</button></a>
+                </div> -->
+            </div>        
+        </div>
+    </header>
+
+
+    <!--
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container-fluid">    
+            <a class="navbar-brand" href="#"><img src="img/logo.png"
+                height="30" width="30" /></a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cafeNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="cafeNavBar">
+                <ul class="navbar-nav">
+                    <li class="nav-item-active"><a class="nav-link" href="#"><i class="fa fa-lg"></i> Home </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-lg"></i> About Us </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-lg"></i>  Subscriptions </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-lg"></i> Services </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-lg"></i> Contact Us </a></li>
+                </ul>
+                <span class="navbar-text ml-auto">
+                    <a role="button" id="loginButton">
+                        <i class="fa fa-sign-in"></i> Login
+                    </a> 
+                </span>
+            </div>
+        </div>   
+    </nav>
+-->
+    <div class="container">
+        <div class="row">
+            <div class=" aboutCard card ml-5">
+                <div class="card-body">
+                  <h5 class="card-title">What is an Anti Cafe?</h5>
+                  <p class="card-text">Originating in Russia, Anti Cafe's are the modern workspaces for the busy person. You buy the time and we take care of you during your visit.</p>
+                  <div class="row">
+                        <span class="mx-auto">
+                        <a href="#" class="btn btn-warning">Reserve a Space</a>
+                    </span>
+                   </div> 
+                </div>
+        </div>
+
+        <div class="row" id="subscriptions">
+            <div class="col-md-4">
+                <div class="card pt-0" style="width: 20rem; background-color: rgb(168, 107, 71, 0.5)">
+                    <img src="img/happyguy.jpeg" class="card-img-top" alt="weeklyImg">
+                    <div class="card-body">
+                        <h5 class="card-title">Weekly Rate</h5>
+                        <h6 class="card-subtitle">More Availability $30</h6>
+                    <p class="card-text">Included in this package are accessibility any weekday.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card pt-0" style="width: 20rem; background-color: rgb(168, 107, 71, 0.5)">
+                    <img src="img/weekly.jpeg" class="card-img-top" alt="weeklyImg">
+                    <div class="card-body">
+                        <h5 class="card-title">Weekly Rate</h5>
+                        <h6 class="card-subtitle">More Availability $30</h6>
+                    <p class="card-text">Included in this package are accessibility any weekday.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card pt-0" style="width: 20rem; background-color: rgb(168, 107, 71, 0.5)">
+                    <img src="img/daily.jpeg" class="card-img-top" alt="dailyImg">
+                    <div class="card-body">
+                        <h5 class="card-title">Daily Rate</h5>
+                        <h6 class="card-subtitle">More Flexibility When You Want $15</h6>
+                    <p class="card-text">Included in this package are accessibility for 6 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+
+
+
+
+
+
+
+    </div>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.body-1 {
+    background-image: url(/img/cup.jpg);
+    background-size: cover;
+}
+.body-2 {
+    background-image: url(/img/contactusimg.jpg);
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.list {
+
+    margin-right: 0px;
+    padding-right:100px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #000000;
+
+}
+
+.jumbotron {
+      background: none;
+      margin: 0px;
+      padding-bottom: 30px;
+}
+
+.card {
+      margin-top: 300px;
+      padding-top: 10px;
+      border: none;
+      text-align: center;
+
+}
+
+.card-text {
+      text-align: center;
+  }
+
+  h1 {
+    font-family: 'Caveat';
+    font-size: 100px;
+    color: rgb(252, 252, 252);
+    text-align: center;
+  }
+  h2 {
+    color: rgb(245, 245, 245);
+    font-family: 'Red Hat Display'; 
+    text-align: center;
+  }
+
+  .aboutCard {
+      background-color: rgb(245, 245, 245, 0.5); 
+      object-fit: cover;
+  }
